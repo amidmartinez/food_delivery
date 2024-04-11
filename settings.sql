@@ -1,0 +1,4 @@
+-- settings.sql
+CREATE DATABASE food;
+CREATE USER fooduser WITH PASSWORD 'food';
+GRANT ALL PRIVILEGES ON DATABASE food TO fooduser;
