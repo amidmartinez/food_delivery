@@ -1,0 +1,158 @@
+.home {
+  background-image: url('https://png.pngtree.com/background/20210714/original/pngtree-fast-food-hand-drawn-frame-and-background-for-design-picture-image_1203973.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: #900904;
+  font-family: 'Frank Ruhl Libre', serif;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #0a0000;
+}
+
+/* You can expand this with specific styles for your additional content */
+.navbar {
+  background-color: #dd9735;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Make the list items display horizontally */
+}
+
+.navbar li {
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Reset some default styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the footer */
+.footer {
+  background-color: #dd9735;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 100
+  px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Container for the entire page */
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: #f0f2f5; /* Light grey background */
+}
+
+/* Styles for the form itself */
+.form {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Styling the header */
+.form h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for both input fields */
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Light gray border */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Styling labels for accessibility */
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styling the buttons */
+.form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px; /* Space between buttons */
+}
+
+/* Hover effect for buttons */
+.form button:hover {
+  background-color: #0056b3; /* A darker shade of the primary color */
+}
+
+/* Style for the cancel button to make it distinct */
+.cancel {
+  background-color: #6c757d; /* Bootstrap secondary color */
+}
+
+.cancel:hover {
+  background-color: #545b62; /* A darker shade of the secondary color */
+}
+
+/* Style for the restaurant images */
+.restaurant-image {
+  width: 100px; /* Set the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners to the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+  margin-bottom: 8px; /* Space below the image */
+}
+
